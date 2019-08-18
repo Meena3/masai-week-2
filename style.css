@@ -1,0 +1,130 @@
+.class1{
+  width:80px;
+  height:80px;
+  border:5px solid yellow;
+}
+ h1{
+    font-size:100px;
+    color:blue;
+    text-align: center;
+    background-color: aqua;
+    border:2px solid red;
+}
+.grid-box1{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:100px 100px 100px;
+    grid-gap:20px;
+    margin:10px;
+  
+}
+.grid-box1 div{
+    height:350px;
+    width:250px;
+    border:10px solid red;
+  
+}
+.img{
+    height:350px;
+    width:250px;
+}
+p{
+    font-size:30px;
+}
+h2{
+    font-size:40px;
+    color:red;
+}
+li{
+    font-size:30px;
+    color:green;
+}
+h3{
+    font-size:50px;
+    color:red;
+    text-align:center;
+}
+h3 p{
+    font-size:20px;
+    font-style: italic;
+}
+.img-ab{
+    width:50px;
+    height:60px;
+}
+.flex-box{
+    display:flex;
+    margin:10px;
+    border:1px;
+}
+.flex-box1{
+    display:flex;
+    height:50px;
+    width:1300px;
+    background:bisque;
+    font-size:30px;
+    justify-content:space-around;
+}
+#id1{
+    font-size:50px;
+    color:green;
+    text-align: center;
+}
+#id2{
+    background-color:greenyellow;
+}
+
+@media (max-width:900px){
+    div{
+        font-size:15px;
+    }
+    h1{
+        font-size:30px;
+        background-color:yellow;
+    }
+    p{
+        font-size:15px;
+    }
+    .grid-box1{
+        display:grid;
+        grid-template-columns: 150px 150px 100px;
+        grid-template-rows:60px 60px 60px;
+        grid-gap:5px;
+        margin:5px;
+    }
+    .grid-box1 div{
+        height:200px;
+        width:100px;
+        border:2px solid red;
+    }
+    .img{
+        height:200px;
+        width:100px;
+    }
+    h2{
+        font-size:15px;
+    }
+    li{
+        font-size:15px;
+    }
+    h3{
+        font-size:20px;
+    }
+    .img-ab{
+        height:25px;
+        width:25px;
+    }
+   .flex-box1{
+        display:flex;
+        height:20px;
+        width:500px;
+        background:bisque;
+        font-size:20px;
+        justify-content:space-around;
+    }
+    
+
+}
+
+
+
